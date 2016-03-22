@@ -19,6 +19,6 @@ The clear button clears the canvas.
 There are also the < button and > button, which stand for undo and redo. The user may undo and redo the drawing on the screen after the user draws some things on the canvas.
 
 References:
-This application is written from scratch. Some of the techniques, such as the sliding screen, are learned from http://developer.android.com. All the rest is learned from the calculator example.
+This application is written from scratch. Some of the techniques, such as the sliding screen, are learned from http://developer.android.com and http://youtube.com. All the rest is learned from the calculator example and the doodle example.
 
 Thanks for Reading
