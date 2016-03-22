@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="brush"
+            android:id="@+id/toBrush"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="#ff9100"
+            android:layout_columnSpan="10" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="invert"
+            android:id="@+id/invert"
+            android:layout_row="0"
+            android:layout_column="17" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="clear"
+            android:id="@+id/clear"
+            android:layout_row="0"
+            android:layout_column="18" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&lt;"
+            android:id="@+id/undo"
+            android:layout_row="0"
+            android:layout_column="19" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">"
+            android:id="@+id/redo"
+            android:layout_row="0"
+            android:layout_column="20" />
+    </GridLayout>
+
+    <com.example.stephen.myapplication.DoodleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view2"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
