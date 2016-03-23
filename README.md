@@ -4,7 +4,10 @@ Good App
 Hello there!
 
 How to Run the App:
+
 The Main.java is the start of the app. After the app is compiled, the user can see the primary interface.
+
+I use android studio, so I would click "run app", select Nexus 5 API 23 x86 as my emulator, click "ok". Wait a bit and the emulator should launch the app.
 
 The primary interface has the following interactions:
 
