@@ -1,6 +1,3 @@
-# CMSC434
-Good App
-
 Hello there!
 
 How to Run the App:
